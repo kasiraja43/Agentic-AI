@@ -1,0 +1,36 @@
+{
+  "projectName": "CustomerAccountAutomation",
+  "pages": [
+    "ForgotPasswordPage"
+  ],
+  "fixtures": [
+    "setupBrowser",
+    "authenticationSetup",
+    "testDataSetup"
+  ],
+  "utilities": [
+    "CommonUtils",
+    "ValidationUtils"
+  ],
+  "testData": [
+    "userRegistrationData.json",
+    "loginCredentials.json",
+    "passwordResetData.json"
+  ],
+  "testScripts": [
+    "registrationFlow.spec.ts",
+    "loginValidationFlow.spec.ts",
+    "passwordResetFlow.spec.ts"
+  ],
+  "reusableComponents": [
+    "navigateToPage",
+    "submitForm",
+    "validateErrorMessage",
+    "handleAlerts"
+  ],
+  "businessFlows": [
+    "CustomerRegistrationFlow",
+    "AuthenticationLoginFlow",
+    "PasswordResetWorkflow"
+  ]
+}
