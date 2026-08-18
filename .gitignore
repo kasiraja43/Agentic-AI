@@ -20,6 +20,7 @@ output/execution.json
 output/coverage.json
 output/review.json
 output/healing-report.json
+output/framework-plan.json
 
 # TypeScript build
 dist/
