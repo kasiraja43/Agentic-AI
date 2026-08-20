@@ -1,0 +1,43 @@
+# Dependencies
+node_modules/
+
+# Environment / secrets
+.env
+
+# Playwright generated files
+test-results/
+playwright-report/
+blob-report/
+
+# Generated output
+output/agent2-input/
+output/framework/
+output/tests/
+
+# Generated reports/data
+output/reports/
+output/execution.json
+output/coverage.json
+output/review.json
+output/healing-report.json
+output/framework-plan.json
+
+# TypeScript build
+dist/
+
+# IDE
+.vscode/
+.idea/
+
+# Logs
+*.log
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Playwright
+/playwright-report/
+/blob-report/
+/playwright/.cache/
+/playwright/.auth/
